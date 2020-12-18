@@ -12,7 +12,7 @@ Global:
   test_batch_size_per_card: 4
   image_shape: [3, 640, 640]
   reader_yml: ./configs/det/det_db_icdar15_reader.yml
-  pretrain_weights: ../input/mobilenetv3-large-x0-5-pretrained/
+  pretrain_weights: ../../input/mobilenetv3-large-x0-5-pretrained/
   checkpoints:
   save_res_path: ./output/det_db/predicts_db.txt
   save_inference_dir:
